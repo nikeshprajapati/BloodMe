@@ -19,9 +19,9 @@ public class afterlogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.afterlogin);
 
-        request = (Button) findViewById(R.id.Request);
-        donate = (Button) findViewById(R.id.Donate);
-        exit = (Button)findViewById(R.id.Exit);
+        request = (Button) findViewById(R.id.request);
+        donate = (Button) findViewById(R.id.donate);
+        exit = (Button)findViewById(R.id.signout);
 
 
         donate.setOnClickListener(new View.OnClickListener() {

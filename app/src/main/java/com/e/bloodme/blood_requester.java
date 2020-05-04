@@ -22,7 +22,7 @@ public class blood_requester extends AppCompatActivity {
         address = findViewById(R.id.editText8);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blood_requester);
-        Button requestBtn = (Button) findViewById(R.id.button);
+        Button requestBtn = (Button) findViewById(R.id.donate);
         Button cancelBtn = (Button) findViewById(R.id.request);
 
         requestBtn.setOnClickListener(new View.OnClickListener() {
